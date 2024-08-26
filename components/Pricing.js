@@ -12,10 +12,7 @@ const Pricing = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
-    <div
-      className=" w-full py-14"
-      id="pricing"
-    >
+    <div className=" w-full py-4" id="pricing">
       <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
         <div className="flex flex-col w-full">
           {/* <ScrollAnimationWrapper>
@@ -182,7 +179,7 @@ const Pricing = () => {
             </ScrollAnimationWrapper>
           </div> */}
         </div>
-      
+
         <div className="flex flex-col w-full my-16" id="testimoni">
           <ScrollAnimationWrapper>
             <motion.h3
