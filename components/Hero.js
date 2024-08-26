@@ -50,7 +50,7 @@ const About = () => {
                   To suit your specific business needs.
                 </p>
                 <div className="text-center mt-4">
-                  <button className="bg-blue-600 rounded-xl px-3 py-2 text-gray-100 text-xl  ">
+                  <button className="bg-red-600 rounded-xl px-3 py-2 text-gray-100 text-xl  ">
                     <Link href="/contact"> Contact Us</Link>
                   </button>
                 </div>
