@@ -42,7 +42,7 @@ const backgroundImageUrl2 = 'url("/hero1.jpg")';
         {/* Your content goes here */}
         <h1 className="text-5xl md:text-7xl py-5 text-transparent z-10 text-center font-extrabold bg-clip-text bg-gradient-to-r from-orange-600  to-orange-700">
           <span className="light:text-black text-gray-100">
-           We are the African {""}
+           Consumer and  {""}
           </span>
           Story Telling Maestro
         </h1>
