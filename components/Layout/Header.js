@@ -116,11 +116,7 @@ const Navbar = () => {
               About
             </p>
           </Link>
-          <Link href="/projects">
-            <p className="text-xl cursor-pointer font-medium hover:text-orange-600">
-              Projects
-            </p>
-          </Link>
+         
           {/* <h2 onClick={toggleSubmenu} className="menu-item sub__menus__arrows">
             <Link href="/">
               <div className="flex justify-center items-center">
@@ -153,11 +149,7 @@ const Navbar = () => {
               Contact
             </p>
           </Link>
-          <Link href="/gallery">
-            <p className="text-xl cursor-pointer font-medium hover:text-orange-600">
-              Gallery
-            </p>
-          </Link>
+         
           <ThemeSwitch />
         </div>
       </div>
@@ -194,7 +186,7 @@ const Navbar = () => {
           </div>
           <div className="overflow-auto sites h-[90vh]">
             <div className="mx-1 text-lg border-b border-gray-600 border-solid ">
-              <p className="py-5">Creating visually stunning and emotionally resonant films that leave a lasting impact</p>
+              <p className="py-5">Ecommerce Shipment Supply chain Solutions</p>
             </div>
             <div className="justify-center items-center block">
               <ul className="block space-y-4 pt-5">
@@ -219,27 +211,8 @@ const Navbar = () => {
                   <FcBusinessContact />
                   <Link href="/contact">Contact Us</Link>
                 </li>
-                <li
-                  onClick={() => setOpen(false)}
-                  className="font-sm  hover:text-orange-600 flex space-x-2 text-lg items-center"
-                >
-                   <FcWorkflow />
-                  <Link href="/projects">Projects</Link>
-                </li>
-                <li
-                  onClick={() => setOpen(false)}
-                  className="font-sm  hover:text-orange-600 flex space-x-2 text-lg items-center"
-                >
-                   <FcPicture />
-                  <Link href="/gallery">Gallery</Link>
-                </li>
-                <li
-                  onClick={() => setOpen(false)}
-                  className="font-sm  hover:text-orange-600 flex space-x-2 text-lg items-center"
-                >
-                   <FcPortraitMode />
-                  <Link href="/founder">Founder</Link>
-                </li>
+               
+               
               </ul>
             </div>
             <h2 className="pt-5 text-xl   text-orange-600">Lets Connect</h2>
