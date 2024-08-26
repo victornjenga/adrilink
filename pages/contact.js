@@ -29,15 +29,16 @@ function contact() {
               <p>Any Question? Write Down And Send Us</p>
               <div class=" mt-4 flex ">
                 <MdLocationOn className="mr-2 text-2xl dark:text-white" />
-                <p>Ngong Hills, Nairobi, Kenya</p>
+                <p>Shell Lunga Lunga Road Industrial Area, Nairobi,
+                Kenya</p>
               </div>
               <div class=" my-3 flex item-center ">
                 <BsFillTelephoneFill className="mr-2 text-2xl dark:text-white" />
-                <p>+254721600430</p>
+                <p>+254715328244</p>
               </div>
               <div class=" my-3 flex item-center">
                 <MdMarkEmailRead className="mr-2 text-2xl dark:text-white" />
-                <p>info@safwasafaris.co.ke</p>
+                <p> info@adrilink.com</p>
               </div>
             </motion.div>
             <motion.div
