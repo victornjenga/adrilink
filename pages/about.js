@@ -60,10 +60,7 @@ const About = () => (
               Customer Satisfaction
             </h1>
             <p className="flex-1 mt-[16px] font-normal text-[18px] dark:text-gray-100  leading-[32.4px]">
-              Our vision is to be the leading filming company renowned for our
-              artistic excellence and storytelling prowess. We aim to inspire
-              and connect people through the power of film, pushing the
-              boundaries of creativity and innovation in the industry.
+            In the realm of logistics, cost efficiency and waste reduction are crucial factors for success. Kaizen culture focuses on waste reduction, which yields substantial financial benefits
             </p>
           </div>
         </div>

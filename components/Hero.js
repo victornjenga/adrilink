@@ -35,7 +35,7 @@ const About = () => {
               style={{ backgroundImage: backgroundImageUrl }}
             >
               {" "}
-              <div className="absolute inset-0 h-[400px] md:h-[420px]  bg-black opacity-50"></div>
+              <div className="absolute inset-0 h-[400px] md:h-[420px]  bg-black opacity-70"></div>
               <section
                 className={`${styles.paddings}   mx-auto z-10 w-[95%] items-center justify-center `}
               >
@@ -63,7 +63,7 @@ const About = () => {
               style={{ backgroundImage: backgroundImageUrl2 }}
             >
               {" "}
-              <div className="absolute inset-0 h-[400px] md:h-[420px]  bg-black opacity-50"></div>
+              <div className="absolute inset-0 h-[400px] md:h-[420px]  bg-black opacity-70"></div>
               <section
                 className={`${styles.paddings}   mx-auto z-10 w-[95%] items-center justify-center `}
               >

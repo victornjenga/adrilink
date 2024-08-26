@@ -15,12 +15,15 @@ import styles from "../styles/style";
 import { fadeIn, staggerContainer } from "../utils/motion";
 import { MdMilitaryTech } from "react-icons/md";
 import { GrTechnology, GrShieldSecurity, GrNetwork } from "react-icons/gr";
+import { GrStorage } from "react-icons/gr";
+
 import { GiSatelliteCommunication } from "react-icons/gi";
 import { FcFilmReel } from "react-icons/fc";
 import { PiFilmSlateFill } from "react-icons/pi";
-import { FaSearchLocation } from "react-icons/fa";
+import { FaSearchLocation,FaQuestionCircle } from "react-icons/fa";
 import { GrDocumentSound } from "react-icons/gr";
 import { BiSolidVideos } from "react-icons/bi";
+import { FaTruckLoading,FaTruck } from "react-icons/fa";
 
 import {
   AiOutlineClose,
@@ -55,7 +58,7 @@ const Services = () => {
             variants={fadeIn("up", "tween", 0.1, 1)}
             className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
           >
-            <FcFilmReel className="text-5xl " />
+            <FaTruck className="text-5xl " />
             <h2 className="font-semibold text-2xl">Contract Logistics</h2>
             <p className="">
               Need custom logistic services? We got it covered. From overland,
@@ -76,7 +79,7 @@ const Services = () => {
             variants={fadeIn("up", "tween", 0.2, 1)}
             className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
           >
-            <AiOutlineSecurityScan className="text-5xl text-red-700" />
+            <GrStorage className="text-5xl text-red-700" />
             <h2 className="font-semibold text-2xl">Warehousing and Storage</h2>
             <p className="">
               Adrilink offers intelligent warehouse solution. Lower your storage
@@ -98,7 +101,7 @@ const Services = () => {
             variants={fadeIn("up", "tween", 0.3, 1)}
             className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
           >
-            <FcAudioFile className="text-5xl" />
+            <FaQuestionCircle className="text-5xl" />
             <h2 className="font-semibold text-2xl">Consulting Services</h2>
             <p className="">
               Don't know what mean of transportation would be right for you, or
@@ -119,7 +122,7 @@ const Services = () => {
             variants={fadeIn("up", "tween", 0.2, 1)}
             className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
           >
-            <BiSolidVideos className="text-5xl text-red-700" />
+            <FaTruckLoading className="text-5xl text-red-700" />
             <h2 className="font-semibold text-2xl">
               Overland, Ocean and Air Freight
             </h2>
