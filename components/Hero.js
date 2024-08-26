@@ -40,7 +40,7 @@ const About = () => {
                 className={`${styles.paddings}   mx-auto z-10 w-[95%] items-center justify-center `}
               >
                 {/* Your content goes here */}
-                <h1 className="text-5xl md:text-7xl py-5 text-transparent z-10 text-center font-extrabold bg-clip-text bg-gradient-to-r from-blue-400  to-blue-700">
+                <h1 className="text-5xl md:text-7xl py-5 text-transparent z-10 text-center font-extrabold bg-clip-text bg-gradient-to-r from-red-400  to-red-700">
                   <span className="light:text-black text-gray-100">
                     Consumer and Retail {""}
                   </span>
@@ -50,7 +50,7 @@ const About = () => {
                   To suit your specific business needs.
                 </p>
                 <div className="text-center mt-4">
-                  <button className="bg-red-600 rounded-xl px-3 py-2 text-gray-100 text-xl  ">
+                  <button className="bg-blue-800 rounded-xl px-3 py-2 text-gray-100 text-xl  ">
                     <Link href="/contact"> Contact Us</Link>
                   </button>
                 </div>
@@ -68,7 +68,7 @@ const About = () => {
                 className={`${styles.paddings}   mx-auto z-10 w-[95%] items-center justify-center `}
               >
                 {/* Your content goes here */}
-                <h1 className="text-5xl md:text-7xl py-5 text-transparent z-10 text-center font-extrabold bg-clip-text bg-gradient-to-r from-blue-400  to-blue-700">
+                <h1 className="text-5xl md:text-7xl py-5 text-transparent z-10 text-center font-extrabold bg-clip-text bg-gradient-to-r from-red-400  to-red-700">
                   <span className="light:text-black text-gray-100">
                     MSME Global
                   </span>{" "}
@@ -78,7 +78,7 @@ const About = () => {
                   No more bureacracy - we'll do all the paper work for you
                 </p>
                 <div className="text-center mt-4">
-                  <button className="bg-red-600 rounded-xl px-3 py-2 text-gray-100 text-xl  ">
+                  <button className="bg-blue-800 rounded-xl px-3 py-2 text-gray-100 text-xl  ">
                     <Link href="/contact"> Contact Us</Link>
                   </button>
                 </div>
