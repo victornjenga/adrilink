@@ -22,14 +22,7 @@ const About = () => (
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center "
       >
-        SanaaZoteTV is an initiative launched by Sanaa Zote Productions, based
-        in Nairobi, Kenya. Established in 2010, Sanaa Zote Productions
-        represents the forefront of African storytelling in the contemporary
-        era. We take pride in being a comprehensive film and television
-        production service provider, boasting over two decades of industry
-        expertise. Our extensive portfolio includes successful projects not only
-        in Kenya but also across the expansive territories of East and Central
-        Africa.
+        Adrilink Logistics is among the fastest growing global sourcing companies with a wide network of global partnerships that make movement of your goods fast and affordable. We offer Airfreight, Sea freight, Warehousing & Distribution, Global Shopping, Gift and Parcel delivery and Global relocation of staff & Household to our clients in the Kenya & East Africa region.
       </motion.p>
       {/* <motion.img
         variants={fadeIn("up", "tween", 0.3, 1)}

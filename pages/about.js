@@ -25,7 +25,7 @@ const About = () => (
           Who We Are?
         </h1>
         <p className="justify-center">
-        Sanaa Zote is a premier filming company dedicated to bringing stories to life through the art of visual storytelling. With a team of passionate and creative professionals, we specialize in a wide range of filming services including weddings, corporate events, documentaries, promotional videos, music videos, and more. Our commitment to excellence and innovation ensures that every project we undertake is crafted with precision and heart, delivering exceptional results that exceed our clients' expectations.
+       Adrilink is among the fastest growing global sourcing companies with a wide network of global partnerships that make movement of your goods fast and affordable. We offer Airfreight, Sea freight, Warehousing & Distribution, Global Shopping, Gift and Parcel delivery and Global relocation of staff & Household to our clients in the Kenya & East Africa region.
         </p>
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           <div className="flex-1 flex flex-col sm:max-w-[250px] min-w-[210px]">
@@ -38,7 +38,7 @@ const About = () => (
               OUR MISSION AND OBJECTIVES
             </h1>
             <p className="flex-1 mt-[16px] font-normal text-[18px] dark:text-gray-100  leading-[32.4px]">
-            Our mission at Sanaa Zote is to capture and convey the essence of each story we tell, creating visually stunning and emotionally resonant films that leave a lasting impact.
+           We are committed to continuous improvement of our processes. We do so by ensuring all our employees are involved in all areas of the business and by doing so we believe everyone becomes a process owner and has the self-drive to participate in building the organization.
             </p>
           </div>
           <div className="flex-1 flex flex-col sm:max-w-[250px] min-w-[210px]">

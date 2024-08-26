@@ -13,10 +13,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const About = () => {
-  const backgroundImageUrl = 'url("/hero.jpeg")';
-const backgroundImageUrl2 = 'url("/hero1.jpg")';
+  const backgroundImageUrl = 'url("/hero10.jpeg")';
+const backgroundImageUrl2 = 'url("/hero20.jpeg")';
   return (
-    <div id='about' className="w-full  flex pt-20 md:pt-20 ">
+    <div id='about' className="w-full  flex  ">
       <div className="w-[100%] ">
     <Swiper
     // install Swiper modules

@@ -9,7 +9,7 @@ const Footer = () => {
           <Link href="/">
             <img className="h-[80px]" src="/logo1.png" alt="/" />
           </Link>
-          <p>All in one place for all your filming needs</p>
+          <p>Ecommerce Shipment Supply chain Solutions</p>
         </div>
         <div className="flex flex-col  my-3">
           <p className="text-xl font-bold">Links</p>
@@ -26,29 +26,28 @@ const Footer = () => {
         </div>
         <div className="flex flex-col  my-3">
           <p className="text-xl font-bold">Top Services</p>
-          <p>Tv & Film production</p>
-          <p className="">Audio Production</p>
-          <p>Co-oporete Videos</p>
-          <p>Live Transmission</p>
-          <p>Documentaries</p>
+          <p>Contract Logistics</p>
+          <p className="">Consulting Services</p>
+          <p>Warehousing</p>
+          <p>Overland,Ocean and Air Freight</p>
         </div>
         <div className="flex flex-col  my-3">
           <p className="text-xl font-bold">Contact Us Here</p>
           <p className="">
-            <span className="text-lg font-bold">Sales:</span> 0721600430
+            <span className="text-lg font-bold">Sales:</span>+254715328244
           </p>
           <p className="">
-            <span className="text-lg font-bold">Email:</span> sanaazotetv@gmail.com
+            <span className="text-lg font-bold">Email:</span> info@adrilink.com
           </p>
           <p className="">
-            <span className="text-lg font-bold">Shop Location: </span>Ngong Hills, Nairobi,
+            <span className="text-lg font-bold">Shop Location: </span>Shell Lunga Lunga Road Industrial Area, Nairobi,
             Kenya
           </p>
         </div>
       </div>
 
       <p className="py-4 px-3 text-center mx-10  flex justify-center">
-        Copyright © {new Date().getFullYear()} Sanaa Zote, All rights reserved.
+        Copyright © {new Date().getFullYear()} Adrilink, All rights reserved.
       </p>
     </div>
   );
