@@ -21,7 +21,7 @@ const Testimoni = ({
       testimoni: "Delivered spare parts quickly and in good condition",
     },
     {
-      name: "Bernard Mwenda",
+      name: "Bernard ",
       image: "/3.jpeg",
       date: "February 29, 2022",
       country: "Kenya",

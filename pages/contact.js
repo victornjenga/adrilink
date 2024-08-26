@@ -29,7 +29,7 @@ function contact() {
               <p>Any Question? Write Down And Send Us</p>
               <div class=" mt-4 flex ">
                 <MdLocationOn className="mr-2 text-2xl dark:text-white" />
-                <p>Shell Lunga Lunga Road Industrial Area, Nairobi,
+                <p>Industrial Area, Nairobi,
                 Kenya</p>
               </div>
               <div class=" my-3 flex item-center ">
