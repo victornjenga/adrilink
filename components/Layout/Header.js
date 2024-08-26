@@ -6,7 +6,15 @@ import {
   FiChevronUp,
 } from "react-icons/fi";
 import { motion } from "framer-motion";
-import { FcAbout, FcHome, FcBusinessContact, FcBiotech,  FcWorkflow ,FcPicture,FcPortraitMode} from "react-icons/fc";
+import {
+  FcAbout,
+  FcHome,
+  FcBusinessContact,
+  FcBiotech,
+  FcWorkflow,
+  FcPicture,
+  FcPortraitMode,
+} from "react-icons/fc";
 import { GrTechnology, GrShieldSecurity, GrNetwork } from "react-icons/gr";
 import { GiSatelliteCommunication } from "react-icons/gi";
 import { Link as LinkScroll } from "react-scroll";
@@ -102,21 +110,21 @@ const Navbar = () => {
       <div className="hidden md:flex h-[80px] justify-around items-center px-8  bg-gray-100 dark:bg-gray-950 ">
         <div className="cursor-pointer">
           <Link href="/">
-            <img className="h-[50px]" src="/logo1.png" alt="/" />
+            <img className="h-[50px]" src="/logo2.png" alt="/" />
           </Link>
         </div>
         <div className="hidden space-x-10  md:flex ">
           <Link href="/">
-            <p className="text-xl cursor-pointer font-medium hover:text-orange-600">
+            <p className="text-xl cursor-pointer font-medium hover:text-red-600">
               Home
             </p>
           </Link>
           <Link href="/about">
-            <p className="text-xl cursor-pointer font-medium hover:text-orange-600">
+            <p className="text-xl cursor-pointer font-medium hover:text-red-600">
               About
             </p>
           </Link>
-         
+
           {/* <h2 onClick={toggleSubmenu} className="menu-item sub__menus__arrows">
             <Link href="/">
               <div className="flex justify-center items-center">
@@ -145,11 +153,11 @@ const Navbar = () => {
             </ul>
           </h2> */}
           <Link href="/contact">
-            <p className="text-xl cursor-pointer font-medium hover:text-orange-600">
+            <p className="text-xl cursor-pointer font-medium hover:text-red-600">
               Contact
             </p>
           </Link>
-         
+
           <ThemeSwitch />
         </div>
       </div>
@@ -157,7 +165,7 @@ const Navbar = () => {
       <div className=" md:hidden flex top-0 mt-0  text-center  h-[70px] items-center bg-gray-100 dark:bg-gray-950 z-10 w-full fixed justify-between px-4  md:justify-around space-x-10">
         <div className="">
           <a href="/">
-            <img className="h-[40px]" src="/logo1.png" alt="/" />
+            <img className="h-[40px]" src="/logo2.png" alt="/" />
           </a>
         </div>
 
@@ -176,7 +184,7 @@ const Navbar = () => {
           <div className="flex py-5 items-center justify-between">
             <div onClick={() => setOpen(false)} className="">
               <a href="/">
-                <img className="h-[50px] " src="/logo1.png" alt="/" />
+                <img className="h-[50px] " src="/logo2.png" alt="/" />
               </a>
             </div>
             <AiOutlineClose
@@ -186,36 +194,37 @@ const Navbar = () => {
           </div>
           <div className="overflow-auto sites h-[90vh]">
             <div className="mx-1 text-lg border-b border-gray-600 border-solid ">
-              <p className="py-5">Ecommerce Shipment Supply chain Solutions</p>
+              <p className="py-5">
+                Specialists in clearing and forwading,logistics and
+                consolidations
+              </p>
             </div>
             <div className="justify-center items-center block">
               <ul className="block space-y-4 pt-5">
                 <li
                   onClick={() => setOpen(false)}
-                  className="font-sm hover:text-orange-600 flex space-x-2 text-lg items-center "
+                  className="font-sm hover:text-red-600 flex space-x-2 text-lg items-center "
                 >
                   <FcHome />
                   <Link href="/">Home</Link>
                 </li>
                 <li
                   onClick={() => setOpen(false)}
-                  className="font-sm hover:text-orange-600 flex space-x-2 text-lg items-center "
+                  className="font-sm hover:text-red-600 flex space-x-2 text-lg items-center "
                 >
                   <FcAbout />
                   <Link href="/about">About</Link>
                 </li>
                 <li
                   onClick={() => setOpen(false)}
-                  className="font-sm  hover:text-orange-600 flex space-x-2 text-lg items-center"
+                  className="font-sm  hover:text-red-600 flex space-x-2 text-lg items-center"
                 >
                   <FcBusinessContact />
                   <Link href="/contact">Contact Us</Link>
                 </li>
-               
-               
               </ul>
             </div>
-            <h2 className="pt-5 text-xl   text-orange-600">Lets Connect</h2>
+            <h2 className="pt-5 text-xl   text-red-600">Lets Connect</h2>
             <div className="flex space-x-2 py-2">
               <a href="https://facebook.com/" target="_blank" rel="noreferrer">
                 <div className="shadow-lg w-10 h-10 justify-center items-center flex shadow-gray-400 rounded-full ">
@@ -231,7 +240,8 @@ const Navbar = () => {
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noreferrer"
-          nn    >
+                nn
+              >
                 <div className="shadow-lg w-10 h-10 justify-center items-center flex shadow-gray-400 rounded-full ">
                   <FaInstagram />
                 </div>
@@ -260,7 +270,7 @@ const Navbar = () => {
                 className={
                   "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                   (activeLink === "about"
-                    ? "  border-orange-500 text-orange-500"
+                    ? "  border-red-500 text-red-500"
                     : " border-transparent")
                 }
               >
@@ -292,7 +302,7 @@ const Navbar = () => {
                 className={
                   "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                   (activeLink === "feature"
-                    ? "  border-orange-500 text-orange-500"
+                    ? "  border-red-500 text-red-500"
                     : " border-transparent ")
                 }
               >
@@ -324,11 +334,11 @@ const Navbar = () => {
                 className={
                   "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                   (activeLink === "partners"
-                    ? "  border-orange-500 text-orange-500"
+                    ? "  border-red-500 text-red-500"
                     : " border-transparent ")
                 }
               >
-                <FaPeopleGroup className="text-2xl"/>
+                <FaPeopleGroup className="text-2xl" />
                 Partners
               </LinkScroll>
               <LinkScroll
@@ -343,7 +353,7 @@ const Navbar = () => {
                 className={
                   "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                   (activeLink === "testimoni"
-                    ? "  border-orange-500 text-orange-500"
+                    ? "  border-red-500 text-red-500"
                     : " border-transparent ")
                 }
               >

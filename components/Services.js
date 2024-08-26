@@ -64,7 +64,7 @@ const Services = () => {
             </p>
             {/* <Link
               href="/"
-              className="text-xl text-orange-600 cursor-pointer"
+              className="text-xl text-red-600 cursor-pointer"
             >
               <p className="text-xl text-blue-700 cursor-pointer">
                 Read More
@@ -76,7 +76,7 @@ const Services = () => {
             variants={fadeIn("up", "tween", 0.2, 1)}
             className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
           >
-            <AiOutlineSecurityScan className="text-5xl text-orange-700" />
+            <AiOutlineSecurityScan className="text-5xl text-red-700" />
             <h2 className="font-semibold text-2xl">Warehousing and Storage</h2>
             <p className="">
               Adrilink offers intelligent warehouse solution. Lower your storage
@@ -85,7 +85,7 @@ const Services = () => {
             </p>
             {/* <Link
               href="/"
-              className="text-xl text-orange-600 cursor-pointer"
+              className="text-xl text-red-600 cursor-pointer"
             >
               <p className="text-xl text-blue-700 cursor-pointer">
                 Read More
@@ -107,7 +107,7 @@ const Services = () => {
             </p>
             {/* <Link
               href="/"
-              className="text-xl text-orange-600 cursor-pointer"
+              className="text-xl text-red-600 cursor-pointer"
             >
               <p className="text-xl text-blue-700 cursor-pointer">
                 Read More
@@ -119,7 +119,7 @@ const Services = () => {
             variants={fadeIn("up", "tween", 0.2, 1)}
             className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
           >
-            <BiSolidVideos className="text-5xl text-orange-700" />
+            <BiSolidVideos className="text-5xl text-red-700" />
             <h2 className="font-semibold text-2xl">
               Overland, Ocean and Air Freight
             </h2>
@@ -130,7 +130,7 @@ const Services = () => {
             </p>
             {/* <Link
               href="/"
-              className="text-xl text-orange-600 cursor-pointer"
+              className="text-xl text-red-600 cursor-pointer"
             >
               <p className="text-xl text-blue-700 cursor-pointer">
                 Read More

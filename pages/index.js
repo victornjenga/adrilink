@@ -26,7 +26,7 @@ export default function Home() {
 
   return (
     <div>
-      <SeoHead title="Sanaa Zote TV" />
+      <SeoHead title="Adrilink" />
 
       <div id="about" className="w-full flex pt-20 md:pt-20">
         <div className="w-[100%]">

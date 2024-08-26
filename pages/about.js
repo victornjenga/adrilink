@@ -21,11 +21,16 @@ const About = () => (
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
-        <h1 className="text-5xl md:text-6xl py-5 text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-orange-600 to-orange-900">
+        <h1 className="text-5xl md:text-6xl py-5 text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-red-600 to-red-900">
           Who We Are?
         </h1>
         <p className="justify-center">
-       Adrilink is among the fastest growing global sourcing companies with a wide network of global partnerships that make movement of your goods fast and affordable. We offer Airfreight, Sea freight, Warehousing & Distribution, Global Shopping, Gift and Parcel delivery and Global relocation of staff & Household to our clients in the Kenya & East Africa region.
+          Adrilink is among the fastest growing global sourcing companies with a
+          wide network of global partnerships that make movement of your goods
+          fast and affordable. We offer Airfreight, Sea freight, Warehousing &
+          Distribution, Global Shopping, Gift and Parcel delivery and Global
+          relocation of staff & Household to our clients in the Kenya & East
+          Africa region.
         </p>
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           <div className="flex-1 flex flex-col sm:max-w-[250px] min-w-[210px]">
@@ -38,7 +43,11 @@ const About = () => (
               OUR MISSION AND OBJECTIVES
             </h1>
             <p className="flex-1 mt-[16px] font-normal text-[18px] dark:text-gray-100  leading-[32.4px]">
-           We are committed to continuous improvement of our processes. We do so by ensuring all our employees are involved in all areas of the business and by doing so we believe everyone becomes a process owner and has the self-drive to participate in building the organization.
+              We are committed to continuous improvement of our processes. We do
+              so by ensuring all our employees are involved in all areas of the
+              business and by doing so we believe everyone becomes a process
+              owner and has the self-drive to participate in building the
+              organization.
             </p>
           </div>
           <div className="flex-1 flex flex-col sm:max-w-[250px] min-w-[210px]">
@@ -51,7 +60,10 @@ const About = () => (
               Customer Satisfaction
             </h1>
             <p className="flex-1 mt-[16px] font-normal text-[18px] dark:text-gray-100  leading-[32.4px]">
-            Our vision is to be the leading filming company renowned for our artistic excellence and storytelling prowess. We aim to inspire and connect people through the power of film, pushing the boundaries of creativity and innovation in the industry.
+              Our vision is to be the leading filming company renowned for our
+              artistic excellence and storytelling prowess. We aim to inspire
+              and connect people through the power of film, pushing the
+              boundaries of creativity and innovation in the industry.
             </p>
           </div>
         </div>
