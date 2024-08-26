@@ -34,13 +34,13 @@ import Link from "next/link";
 const Services = () => {
   return (
     <div id="feature" className=" justify-center   items-center  my-4">
-          <div className="gradient-02 z-0" />
+      <div className="gradient-02 z-0" />
 
       <div className="flex flex-col text-center py-5">
         <h2 className="font-bold md:text-[54px] py-4 text-[40px] ">
-          Our{" "}
+          What we{" "}
           <span className="text-transparent  bg-clip-text bg-gradient-to-r from-blue-600  to-purple-600">
-            Services
+            Offer
           </span>{" "}
         </h2>
       </div>
@@ -56,10 +56,11 @@ const Services = () => {
             className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
           >
             <FcFilmReel className="text-5xl " />
-            <h2 className="font-semibold text-2xl">TV & FILM PRODUCTION</h2>
+            <h2 className="font-semibold text-2xl">Contract Logistics</h2>
             <p className="">
-              We are prominently engaged in the dynamic realm of television and
-              film production
+              Need custom logistic services? We got it covered. From overland,
+              air, rail and sea transportation. Fast, safe and accurate shipment
+              provided all over the globe.
             </p>
             {/* <Link
               href="/"
@@ -76,10 +77,11 @@ const Services = () => {
             className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
           >
             <AiOutlineSecurityScan className="text-5xl text-orange-700" />
-            <h2 className="font-semibold text-2xl">FILMING FIXERS</h2>
+            <h2 className="font-semibold text-2xl">Warehousing and Storage</h2>
             <p className="">
-              We specialize in professional film fixing services for various
-              production needs.
+              Adrilink offers intelligent warehouse solution. Lower your storage
+              and good maintenance by using our modern and intelligent
+              warehouses.
             </p>
             {/* <Link
               href="/"
@@ -97,10 +99,11 @@ const Services = () => {
             className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
           >
             <FcAudioFile className="text-5xl" />
-            <h2 className="font-semibold text-2xl">AUDIO PRODUCTION</h2>
+            <h2 className="font-semibold text-2xl">Consulting Services</h2>
             <p className="">
-              We engage in the production of diverse and high-quality audio
-              content.
+              Don't know what mean of transportation would be right for you, or
+              you need someone for full supply chain management? Please contact
+              us. Our team of professionals will be happy to help.
             </p>
             {/* <Link
               href="/"
@@ -117,91 +120,13 @@ const Services = () => {
             className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
           >
             <BiSolidVideos className="text-5xl text-orange-700" />
-            <h2 className="font-semibold text-2xl">TESTIMONIALS VIDEOS</h2>
+            <h2 className="font-semibold text-2xl">
+              Overland, Ocean and Air Freight
+            </h2>
             <p className="">
-              We produce content showcasing authentic testimonials and real-life
-              experiences.
-            </p>
-            {/* <Link
-              href="/"
-              className="text-xl text-orange-600 cursor-pointer"
-            >
-              <p className="text-xl text-blue-700 cursor-pointer">
-                Read More
-              </p>
-              
-            </Link> */}
-          </motion.div>
-          <motion.div
-            variants={fadeIn("up", "tween", 0.3, 1)}
-            className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
-          >
-            <PiFilmSlateFill className="text-5xl " />
-            <h2 className="font-semibold text-2xl">COOPRRATE VIDOES</h2>
-            <p className="">
-              We specialize in producing corporate videos for business and
-              marketing purposes
-            </p>
-            {/* <Link
-              href="/"
-              className="text-xl text-orange-600 cursor-pointer"
-            >
-              <p className="text-xl text-blue-700 cursor-pointer">
-                Read More
-              </p>
-              
-            </Link> */}
-          </motion.div>
-
-          <motion.div
-            variants={fadeIn("up", "tween", 0.4, 1)}
-            className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
-          >
-            <GiSatelliteCommunication className="text-5xl text-orange-700" />
-            <h2 className="font-semibold text-2xl">LIVE TRANSMISSION</h2>
-            <p className="">
-              We offer live streaming services for real-time, engaging online
-              broadcasts
-            </p>
-            {/* <Link
-              href="/"
-              className="text-xl text-orange-600 cursor-pointer"
-            >
-              <p className="text-xl text-blue-700 cursor-pointer">
-                Read More
-              </p>
-              
-            </Link> */}
-          </motion.div>
-          <motion.div
-            variants={fadeIn("up", "tween", 0.4, 1)}
-            className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
-          >
-            <GrDocumentSound  className="text-5xl" />
-            <h2 className="font-semibold text-2xl">DOCUMENTARIES</h2>
-            <p className="">
-              We create compelling documentaries exploring various subjects and
-              social issues
-            </p>
-            {/* <Link
-              href="/"
-              className="text-xl text-orange-600 cursor-pointer"
-            >
-              <p className="text-xl text-blue-700 cursor-pointer">
-                Read More
-              </p>
-              
-            </Link> */}
-          </motion.div>
-          <motion.div
-            variants={fadeIn("up", "tween", 0.4, 1)}
-            className="justify-center text-center  mx-5 hover:scale-105 duration-300 ease-out py-5 h-[300px]  w-[300px] max-w-sm  rounded-lg  dark:bg-black/30 shadow-md px-3 md:w-[350px] space-y-2 items-center flex flex-col"
-          >
-            <FaSearchLocation className="text-5xl text-orange-700" />
-            <h2 className="font-semibold text-2xl">LOCATION SERVICES</h2>
-            <p className="">
-              We provide top-notch location services for diverse film and
-              television productions.
+              Adrilink Offers offers the best logistics services using all means
+              of supply chain. Use our overland, ocean and air freight solutions
+              for shipment of your goods.
             </p>
             {/* <Link
               href="/"
@@ -215,7 +140,6 @@ const Services = () => {
           </motion.div>
         </div>
       </motion.div>
-      
     </div>
   );
 };
