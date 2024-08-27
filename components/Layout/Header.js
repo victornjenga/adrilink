@@ -165,7 +165,7 @@ const Navbar = () => {
       <div className=" md:hidden flex top-0 mt-0  text-center  h-[70px] items-center bg-gray-100 dark:bg-gray-950 z-10 w-full fixed justify-between px-4  md:justify-around space-x-10">
         <div className="">
           <a href="/">
-            <img className="h-[40px]" src="/logo.png" alt="/" />
+            <img className="h-[50px]" src="/logo.png" alt="/" />
           </a>
         </div>
 
