@@ -110,7 +110,7 @@ const Navbar = () => {
       <div className="hidden md:flex h-[80px] justify-around items-center px-8  bg-gray-100 dark:bg-gray-950 ">
         <div className="cursor-pointer">
           <Link href="/">
-            <img className="h-[50px]" src="/logo.png" alt="/" />
+            <img className="h-[70px]" src="/logo.png" alt="/" />
           </Link>
         </div>
         <div className="hidden space-x-10  md:flex ">
