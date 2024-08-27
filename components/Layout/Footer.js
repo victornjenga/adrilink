@@ -7,7 +7,7 @@ const Footer = () => {
       <div className=" flex flex-col w-[80%] justify-center md:grid grid-cols-4">
         <div className=" px-3  justify-center  items-center w-full flex md:block flex-col my-3">
           <Link href="/">
-            <img className="h-[80px]" src="/logo2.png" alt="/" />
+            <img className="h-[80px]" src="/logo.png" alt="/" />
           </Link>
           <p>
             Specialists in clearing and forwading,logistics and consolidations
